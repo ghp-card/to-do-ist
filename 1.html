@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+	<h2>To-Do List</h2>
+	<div id="container">
+		<input type="text" id="create-task" name="create" placeholder="Enter task">
+		<button onclick="createTask()" id="add" class="managing">Add task</button>
+		<button onclick="deleteFulfilled()" id="del-checked" class="managing">Delete fulfilled</button>
+	</div>
+	</header>
+	<content>
+			<ul id="task-list"></ul>
+	</content>
+	<script src="script.js"></script>
+</body>
+</html>
